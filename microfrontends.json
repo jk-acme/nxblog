@@ -1,0 +1,10 @@
+{
+  "$schema": "https://openapi.vercel.sh/microfrontends.json",
+  "applications": {
+    "blog": {
+      "development": {
+        "fallback": "mrcme.dpdns.org"
+      }
+    }
+  }
+}
