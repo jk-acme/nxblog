@@ -1,6 +1,6 @@
 ---
 title: Projects
-type: Page
+type: page
 date: 2025-08-25
 ---
 
