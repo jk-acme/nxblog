@@ -2,8 +2,7 @@ import "nextra-theme-blog/style.css";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 import "../styles/main.css";
-import { SpeedInsights } from '@vercel/speed-insights/next;
-import { Analytics } from "@vercel/analytics/next";
+
 
 
 export default function App({ Component, pageProps }: AppProps) {
@@ -25,7 +24,6 @@ export default function App({ Component, pageProps }: AppProps) {
         />
       </Head>
       <Component {...pageProps} />
-      <SpeedInsights />
     </>
   );
 }
